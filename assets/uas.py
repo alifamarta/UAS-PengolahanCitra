@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 
 # Load the image
-img = plt.imread('assets/img/sunflower.jpg')
+img = plt.imread('assets/img/landscape.jpg')
 
 # Reshape the image into a 2D array of pixels
 pixels = img.reshape((-1, 3))
